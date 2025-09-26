@@ -1,0 +1,16 @@
+.products{
+    display: block;
+    background-color: black;
+    width: 100%;
+    border-radius: 25px;
+}
+.product{
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: aqua;
+}
