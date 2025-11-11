@@ -31,12 +31,6 @@ nav{
 .Nav-links li a:hover{
     background-color: aquamarine;
 }
-.products{
-    display: block;
-    background-color: black;
-    width: 100%;
-    border-radius: 25px;
-}
 .product{
     display: inline-block;
     width: 30%;
