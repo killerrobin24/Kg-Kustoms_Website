@@ -41,3 +41,26 @@ nav{
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     background-color: aqua;
 }
+.product img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#cart {
+  font-size: 20px;
+  cursor: pointer;
+}
