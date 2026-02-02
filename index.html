@@ -6,6 +6,7 @@
     </head> 
 
     <body>
+
         <header>
             <div class="container">
                 <nav>
@@ -15,57 +16,25 @@
                         <li><a href="cart.html">Contact</a></li>
                     </ul>
                 </nav>
-                <div id="cart">
-                    K<span id="cart-count">0</span>
-                </div>
+                <button class="cart-btn">🛒 ( <span class="cart-count">0</span>) </button>
             </div>
         </header>
+
             <div class="container">
                 <h1>Welcome to KG-Kustoms</h1>
-                <p>Your one-stop shop for custom kites and accessories.</p>
+                <p>Your one-stop shop for 3d prints and many more.</p>
             </div>
-            <div class="container"> 
-                <h2>latest-products</h2>
-                <div class="product">
-                    <h3>Smile hoodie</h3>
-                    <img src="smile-hoodie.jpg" alt="Smile Hoodie">
-                    <p>expess you joy with a happy hoodie</p>
-                    <p>$50.00</p>
-                    <button class="add-to-cart" 
-                    data-id="1" 
-                    data-name="smile-hoodie" 
-                    data-price="50"> 
-                    Add to Cart
-                    </button>
-                    <button>Buy Now</button>
-                </div>
-                <div class="product">
-                    <h3>Kangaroo Pants</h3>
-                    <img src="kangaroo-pants.jpg" alt="Kangaroo Pants">
-                    <p>stylish and comfortable pants with a pouch</p>
-                     <p>$75.00</p>
-                    <button class="add-to-cart" 
-                    data-id="2" 
-                    data-name="kangaroo-pants" 
-                    data-price="75"> 
-                    Add to Cart
-                    </button>
-                    <button>Buy Now</button>
-                </div>
-                <div class="product">
-                    <h3>Bucket Hats</h3>
-                    <img src="bucket-hat.jpg" alt="Bucket Hat">
-                    <p>fly hats that go great with kangroo pants</p>
-                     <p>$25.00</p>
-                    <button class="add-to-cart" 
-                    data-id="3" 
-                    data-name="bucket-hat" 
-                    data-price="25"> 
-                    Add to Cart
-                    </button>
-                    <button>Buy Now</button>
-                </div>
-            </div>
+
+            <!-- Product list will be populated by JavaScript   -->
+            <main id="productList" class="Products"></main>
+
+            <!-- cart sidebar  -->
+             <div id="cartSidebar" class="cart">
+                <button id="closeCartBtn">❌</button>
+                <h2>Your Cart</h2>
+                <div id="cartItems"></div>
+             </div>
+
             <script src="app.js"></script>
     </body>
     <footer>
